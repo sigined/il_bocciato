@@ -32,6 +32,7 @@ body {
 	margin-left:-105px;
 }
 
+/*
 #header #logo:hover{
 	position:absolute;
 	top:0;
@@ -40,8 +41,7 @@ body {
 	margin-top:0px;
 	margin-left:-105px;
 }
-
-
+*/
 
 #mainNav ul{
 	margin:0px;
@@ -183,7 +183,7 @@ ul#mainNav li{
 	color:#FFFFFF;
 	
 }
-/* Estilo para la línea intermedia */
+/* Estilo para la lï¿½nea intermedia */
 #lineaIntermedia{
 	heigth:40px;
 /*	background-color:#000;*/

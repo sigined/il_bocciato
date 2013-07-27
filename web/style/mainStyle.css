@@ -1,0 +1,220 @@
+html { 
+	font-family: Arial, Helvetica, Tahoma, sans-serif; 
+}
+
+body { 
+	color: #000; 
+	margin: 0; 
+	background-color: #37939B; 
+	padding:0;
+	background-color:#FFFFFF;
+}
+
+
+/* Estilo para la parte superior */
+#headerWrapper{
+	background-color:#F8C301;
+		background-image:url(../media/images/bg11.png);
+}
+
+#header{
+	height:80px;
+	width:950px;
+	margin:auto;
+}
+
+#header #logo{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:210px;
+	margin:-10px;
+	margin-left:-105px;
+}
+
+#header #logo:hover{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:210px;
+	margin-top:0px;
+	margin-left:-105px;
+}
+
+
+
+#mainNav ul{
+	margin:0px;
+	padding:0px;
+	background-color:#999;
+}
+
+#mainNav li{
+	margin:0px;
+	padding:0px;
+/*	background-color:#AB8A12;  */
+	list-style:none;
+	color:#036;
+	float:left;
+	text-align:center;
+
+	
+	border:none 0px #000000;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright:0px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-webkit-border-top-left-radius:0px;
+-webkit-border-top-right-radius:0px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+
+	width:150px;
+	background:url(../media/images/fondoOpcionMenu.png);
+	background-repeat:no-repeat;
+	
+	padding-top:18px;
+	padding-bottom:20px;
+	margin-top:8px;
+	
+	font:Verdana, Geneva, sans-serif;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #F0F0F0;
+	font-size:20px;
+}
+
+#mainNav li.nosotros{
+
+	margin-left:15px;
+	margin-right:15px;
+}
+#mainNav li.catalogo{
+	margin-left:15px;
+	margin-right:15px;
+}
+#mainNav li.eventos{
+	margin-left:230px;
+	margin-left:245px;
+	margin-right:15px;
+}
+#mainNav li.contactanos{
+	margin-left:15px;
+	margin-right:15px;
+}
+
+/*
+ul#mainNav{
+	margin:0px;
+	padding:0px;
+	background-color:#999;
+}
+
+ul#mainNav li{
+	margin:0px;
+	padding:0px;
+	background-color:#999;
+	list-style:none;
+	color:#036;
+}*/
+
+/* Estilo para el banner */
+#bannerWrapper{
+	background-color:#DA251C;
+	background-image:url(../media/images/bg3.png);
+	
+}
+
+#banner{
+	height:520px;
+	width:950px;
+	margin:auto;
+	background-image:url(../media/images/letrasHeader.png);
+	background-repeat:no-repeat;
+}
+
+#banner #marcoWrapper{
+/*	background-color:#CCC;*/
+	float:right;
+	height:400px;
+	width:500px;
+	margin-top:70px;
+	background-image:url(../media/images/marcoA.png);
+	background-repeat:no-repeat;
+}
+
+
+#banner #marcoWrapper img{
+	margin-left:17px;
+	margin-top:18px;
+}
+
+
+
+#banner #mensajeBienvenida{
+	padding-top:90px;
+	width:390px;
+}
+
+#banner #mensajeBienvenida .bienvenido{
+	color: #FFF;
+	font-size:50px;
+	color: #D5E033;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#banner #mensajeBienvenida .il{
+	color: #FFF;
+	font-size:42px;
+	color: #D5E033;
+	font-style:italic;
+}
+
+
+#banner #mensajeBienvenida .nosotros{
+	margin-top:15px;
+	color: #DDD;
+	font-size:23px;
+	color: #7A0803;
+	color:#FFFFFF;
+	
+}
+/* Estilo para la línea intermedia */
+#lineaIntermedia{
+	heigth:40px;
+/*	background-color:#000;*/
+	background-image:url(../media/images/bg7.png);
+	padding-top:1px;
+	margin-top: -18px;
+margin-top: -8px;
+}
+
+
+/* Estilo para el contenido principal */
+#contentWrapper{
+	background-color:#FFFFFF;
+	background-image:url(../media/images/bg10.png);
+	height:500px;
+	
+	margin-top:-35px;
+}
+
+#content{
+	width:950px;
+	margin:auto;
+}
+
+
+/* Estilo para el footer */
+#footerWrapper{
+	background-color:#FFFFFF;
+}
+
+#footer{
+	width:900px;
+	margin:auto;
+}

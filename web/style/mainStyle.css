@@ -14,12 +14,12 @@ body {
 /* Estilo para la parte superior */
 #headerWrapper{
 	background-color:#F8C301;
-		background-image:url(../media/images/bg11.png);
+		background-image:url(../media/images/bg12.png);
 }
 
 #header{
 	height:80px;
-	width:950px;
+	width:1100px;
 	margin:auto;
 }
 
@@ -74,7 +74,7 @@ border-bottom-left-radius:5px;
 border-bottom-right-radius:5px;
 
 	width:150px;
-	background:url(../media/images/fondoOpcionMenu.png);
+	background:url(../media/images/fondoOpcionMenu3.png);
 	background-repeat:no-repeat;
 	
 	padding-top:18px;
@@ -90,20 +90,20 @@ border-bottom-right-radius:5px;
 
 #mainNav li.nosotros{
 
-	margin-left:15px;
+	margin-left:45px;
 	margin-right:15px;
 }
 #mainNav li.catalogo{
-	margin-left:15px;
+	margin-left:45px;
 	margin-right:15px;
 }
 #mainNav li.eventos{
-	margin-left:230px;
-	margin-left:245px;
+
+	margin-left:275px;
 	margin-right:15px;
 }
 #mainNav li.contactanos{
-	margin-left:15px;
+	margin-left:45px;
 	margin-right:15px;
 }
 
@@ -130,10 +130,10 @@ ul#mainNav li{
 }
 
 #banner{
-	height:520px;
-	width:950px;
+	height:550px;
+	width:1100px;
 	margin:auto;
-	background-image:url(../media/images/letrasHeader.png);
+	background-image:url(../media/images/letrasHeader3.png);
 	background-repeat:no-repeat;
 }
 
@@ -141,18 +141,27 @@ ul#mainNav li{
 /*	background-color:#CCC;*/
 	float:right;
 	height:400px;
-	width:500px;
+	width:640px;
 	margin-top:70px;
-	background-image:url(../media/images/marcoA.png);
-	background-repeat:no-repeat;
+/*	background-image:url(../media/images/marcoA.png); */
+/*	background-repeat:no-repeat; */
+	background-color:#FFF; 
+
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.4); 
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+
+padding:6px;
+
 }
 
 
+/*
 #banner #marcoWrapper img{
-	margin-left:17px;
-	margin-top:18px;
+	margin-left:10px;
+	margin-top:10px;
 }
-
+*/
 
 
 #banner #mensajeBienvenida{
@@ -204,7 +213,7 @@ margin-top: -8px;
 }
 
 #content{
-	width:950px;
+	width:1100px;
 	margin:auto;
 }
 
@@ -218,3 +227,77 @@ margin-top: -8px;
 	width:900px;
 	margin:auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider {
+    width: 472px;
+    height: 372px;
+    position: relative;
+    background: #fff;
+	
+	
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+#slider:before, #slider:after {
+	content: '';
+	position: absolute;
+	
+	width: 60%;
+	height: 20px;
+	
+	-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+	
+	-webkit-transform: rotate(-4deg) skew(-10deg);
+	-moz-transform: rotate(-4deg) skew(-10deg);
+	-o-transform: rotate(-4deg) skew(-10deg);
+	-ms-transform: rotate(-4deg) skew(-10deg);
+	transform: rotate(-4deg) skew(-10deg);
+	
+	left: 10px;
+	bottom: 13px;
+	z-index: -1;
+}
+
+#slider:after {
+	left: auto;
+	right: 10px;
+	
+	-webkit-transform: rotate(4deg) skew(10deg);
+	-moz-transform: rotate(4deg) skew(10deg);
+	-o-transform: rotate(4deg) skew(10deg);
+	-ms-transform: rotate(4deg) skew(10deg);
+	transform: rotate(4deg) skew(10deg);
+}
+

@@ -207,7 +207,7 @@ margin-top: -8px;
 #contentWrapper{
 	background-color:#FFFFFF;
 	background-image:url(../media/images/bg10.png);
-	height:500px;
+	/*height:500px;*/
 	
 	margin-top:-35px;
 }
@@ -229,8 +229,8 @@ margin-top: -8px;
 }
 
 #content #social #facebook{ 
-	width:500px;
-	background-color:#0F6;
+	width:500px;	
+    /*background-color:#FFF;*/
 }
 
 

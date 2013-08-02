@@ -217,6 +217,23 @@ margin-top: -8px;
 	margin:auto;
 }
 
+#content #social{
+	padding-top:50px;
+}
+
+#content #social #contacto{ 
+	width:500px;
+	background-color:#00F;
+	margin-left:50px;
+	float:right;
+}
+
+#content #social #facebook{ 
+	width:500px;
+	background-color:#0F6;
+}
+
+
 
 /* Estilo para el footer */
 #footerWrapper{

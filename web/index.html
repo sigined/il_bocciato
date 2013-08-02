@@ -15,6 +15,7 @@
 	  	<link rel="stylesheet" href="demo-style.css">
 	  	
 		<!-- Attach necessary JS -->
+        
 		<script type="text/javascript" src="js/orbit/jquery.orbit-1.2.3.min.js"></script>	
 		
 			<!--[if IE]>
@@ -38,6 +39,16 @@
 
 </head>
 	<body>
+    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=142484702478869";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
    
     	<div id="headerWrapper">
         	<div id="header">
@@ -64,15 +75,10 @@
             	<div id="marcoWrapper">
 
 
-		<div id="featured"> 
-
-		  	  <img src="media/images/slider/cupcakesA.jpg"  />
-         	  <img src="media/images/slider/cupcakesA.jpg"  />
-
-		</div>
-
-                
-
+					<div id="featured"> 
+                          <img src="media/images/slider/cupcakesA.jpg"  />
+                          <img src="media/images/slider/cupcakesA.jpg"  />            
+                    </div>               
 
                 </div>
             	<div id="mensajeBienvenida">
@@ -95,6 +101,17 @@
         
         <div id="contentWrapper">
         	<div id="content">
+            	<div id="social">
+                	<div id="contacto">
+                    	contacto
+                    </div>
+                    <div id="facebook">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/IlBocciatoBuffet" data-width="500" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+                    
+	                    facebook
+                    </div>
+                </div>
+            
             	Aquí va el contenido principal de la página
             </div>
             
